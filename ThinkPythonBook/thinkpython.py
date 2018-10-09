@@ -150,6 +150,3 @@ def find_forbidden_letters():
             minimum_word_count = count
             best_combination = current_five
     print("Best combination is", best_combination, "printing just", minimum_word_count, "words")
-
-
-find_forbidden_letters()

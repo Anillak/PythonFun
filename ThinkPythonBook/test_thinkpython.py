@@ -1,7 +1,7 @@
-import unittest, math
+import math
+import unittest
 
-
-from ThinkPython.think import *
+from ThinkPythonBook.thinkpython import *
 
 
 class WordPlayTest(unittest.TestCase):
@@ -51,6 +51,7 @@ class WordPlayTest(unittest.TestCase):
 
     def test_is_abecedarian_wrong_words(self):
         self.assertFalse(is_abecedarian("sgadfgdf"))
+
 
 class IterationTest(unittest.TestCase):
 
